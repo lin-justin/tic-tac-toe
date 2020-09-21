@@ -2,7 +2,7 @@
 
 My implementation of the Tic-Tac-Toe Game in C++ where the user plays against a simple AI. 
 
-This program was mostly for me to practice using pointers and to get better at C++.
+This program was mostly for me to practice using pointers, references, and to get better at C++.
 
 ## Usage
 
