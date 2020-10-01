@@ -41,9 +41,9 @@ Do you require the first move? (y/n):
 
 ### Docker Usage
 
-Please have [Docker](https://docs.docker.com/get-docker/) installed for your respective operating system.
+Please have [Docker](https://docs.docker.com/get-docker/) and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed for your respective operating system.
 
-Once Docker is installed, you can run the following:
+Once both are installed, you can run the following:
 
 ```
 > git clone https://github.com/lin-justin/tic-tac-toe.git
