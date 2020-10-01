@@ -6,11 +6,37 @@ This program was mostly for me to practice using pointers, references, and to ge
 
 ## Usage
 
-This was implemented using [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) with Ubuntu 20.04 and `gcc` version 9.3.0.
+This was implemented on [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) with Ubuntu 20.04 and `gcc` version 9.3.0.
+
+### Local Usage and Installation
+
+If you have WSL with Ubuntu installed and running, you can do the following:
 
 ```
+sudo apt-get update
+sudo apt-get install build-essential
+```
+
+Then,
+
+```
+git clone https://github.com/lin-justin/tic-tac-toe.git
+cd tic-tac-toe
 g++ -o tic-tac-toe tic-tac-toe.cpp
 ./tic-tac-toe
+```
+
+### Docker Usage
+
+Please have [Docker](https://docs.docker.com/get-docker/) installed for your respective operating system.
+
+Once Docker is installed, you can run the following:
+
+```
+git clone https://github.com/lin-justin/tic-tac-toe.git
+cd tic-tac-toe
+docker build --tag tictactoe:latest
+docker run --rm --it tictactoe:latest
 ```
 
 ## Takeaways
