@@ -13,17 +13,17 @@ This was implemented on [WSL](https://docs.microsoft.com/en-us/windows/wsl/about
 If you have WSL with Ubuntu installed and running, you can do the following:
 
 ```
-sudo apt-get update
-sudo apt-get install build-essential
+> sudo apt-get update
+> sudo apt-get install build-essential
 ```
 
 Then,
 
 ```
-git clone https://github.com/lin-justin/tic-tac-toe.git
-cd tic-tac-toe
-g++ -o tic-tac-toe tic-tac-toe.cpp
-./tic-tac-toe
+> git clone https://github.com/lin-justin/tic-tac-toe.git
+> cd tic-tac-toe
+> g++ -o tic-tac-toe tic-tac-toe.cpp
+> ./tic-tac-toe
 
 Welcome to Tic-Tac-Toe: Human vs AI.
 
@@ -46,10 +46,10 @@ Please have [Docker](https://docs.docker.com/get-docker/) installed for your res
 Once Docker is installed, you can run the following:
 
 ```
-git clone https://github.com/lin-justin/tic-tac-toe.git
-cd tic-tac-toe
-docker build --tag tictactoe:latest
-docker run --rm --it tictactoe:latest
+> git clone https://github.com/lin-justin/tic-tac-toe.git
+> cd tic-tac-toe
+> docker build --tag tictactoe:latest
+> docker run --rm --it tictactoe:latest
 
 Welcome to Tic-Tac-Toe: Human vs AI.
 
