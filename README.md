@@ -41,7 +41,7 @@ Do you require the first move? (y/n):
 
 ### Docker Usage
 
-If you do not have WSL installed, please install [Docker](https://docs.docker.com/get-docker/) and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for your respective operating system.
+If you do not have WSL installed, you can use Docker. Please install [Docker](https://docs.docker.com/get-docker/) and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)(if you do not have Git installed either) for your respective operating system.
 
 Once both are installed, you can run the following:
 
