@@ -24,6 +24,19 @@ git clone https://github.com/lin-justin/tic-tac-toe.git
 cd tic-tac-toe
 g++ -o tic-tac-toe tic-tac-toe.cpp
 ./tic-tac-toe
+
+Welcome to Tic-Tac-Toe: Human vs AI.
+
+Make your move known by entering a number, 0 - 8. The number
+corresponds to the desired board position, as illustrated:
+
+       0 | 1 | 2
+       ---------
+       3 | 4 | 5
+       ---------
+       6 | 7 | 8
+
+Do you require the first move? (y/n):
 ```
 
 ### Docker Usage
@@ -37,6 +50,19 @@ git clone https://github.com/lin-justin/tic-tac-toe.git
 cd tic-tac-toe
 docker build --tag tictactoe:latest
 docker run --rm --it tictactoe:latest
+
+Welcome to Tic-Tac-Toe: Human vs AI.
+
+Make your move known by entering a number, 0 - 8. The number
+corresponds to the desired board position, as illustrated:
+
+       0 | 1 | 2
+       ---------
+       3 | 4 | 5
+       ---------
+       6 | 7 | 8
+
+Do you require the first move? (y/n):
 ```
 
 ## Takeaways
