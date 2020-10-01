@@ -48,8 +48,8 @@ Once both are installed, you can run the following:
 ```
 > git clone https://github.com/lin-justin/tic-tac-toe.git
 > cd tic-tac-toe
-> docker build --tag tictactoe:latest
-> docker run --rm --it tictactoe:latest
+> docker build --tag tictactoe:latest .
+> docker run --rm -it tictactoe:latest
 
 Welcome to Tic-Tac-Toe: Human vs AI.
 
